@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bugsink": {
+      "command": "npx",
+      "args": ["-y", "bugsink-mcp-server"]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bugsink",
+  "version": "2.0.0",
+  "description": "Error tracking with BugSink — query issues, analyze stacktraces, set up SDKs, and fix production bugs",
+  "author": {
+    "name": "solsmk"
+  },
+  "homepage": "https://github.com/solsmk/bugsink#readme",
+  "repository": "https://github.com/solsmk/bugsink",
+  "license": "MIT",
+  "keywords": ["bugsink", "error-tracking", "sentry", "debugging", "mcp"]
+}

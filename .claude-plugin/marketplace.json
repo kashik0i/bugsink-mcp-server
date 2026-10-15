@@ -1,0 +1,58 @@
+{
+  "name": "sols",
+  "owner": {
+    "name": "Sols",
+    "email": "support@sols.mk"
+  },
+  "metadata": {
+    "description": "Claude Code plugins maintained by the Sols team",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "bugsink",
+      "source": "./",
+      "description": "Error tracking with BugSink — query issues, analyze stacktraces, set up SDKs, and fix production bugs",
+      "version": "2.0.0",
+      "author": {
+        "name": "Sols"
+      },
+      "homepage": "https://github.com/solsmk/bugsink#readme",
+      "repository": "https://github.com/solsmk/bugsink",
+      "license": "MIT",
+      "keywords": ["bugsink", "error-tracking", "sentry", "debugging", "mcp"],
+      "category": "observability"
+    },
+    {
+      "name": "testing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/solsmk/testing.git"
+      },
+      "description": "Run and write tests with Vitest, Playwright, and React Testing Library. Covers unit tests, component tests, API route tests, store tests, and E2E browser tests.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sols"
+      },
+      "homepage": "https://github.com/solsmk/testing#readme",
+      "repository": "https://github.com/solsmk/testing",
+      "license": "MIT",
+      "keywords": ["testing", "vitest", "playwright", "react-testing-library", "e2e"],
+      "category": "testing"
+    },
+    {
+      "name": "db-guard",
+      "source": "./plugins/db-guard",
+      "description": "PreToolUse hook that blocks destructive database operations (DROP/TRUNCATE/unscoped DELETE-UPDATE/db:rollback/dropdb) — shared Setec guardrail",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sols"
+      },
+      "homepage": "https://github.com/solsmk/bugsink/tree/main/plugins/db-guard#readme",
+      "repository": "https://github.com/solsmk/bugsink",
+      "license": "MIT",
+      "keywords": ["database", "safety", "hook", "postgres", "guardrail", "medusa"],
+      "category": "safety"
+    }
+  ]
+}

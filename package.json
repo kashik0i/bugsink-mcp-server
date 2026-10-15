@@ -1,0 +1,49 @@
+{
+  "name": "bugsink-mcp-server",
+  "version": "2.1.1",
+  "description": "MCP server and Claude Code plugin for BugSink error tracking — query issues, analyze stacktraces, set up SDKs, and fix production bugs",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "bugsink-mcp": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "skills",
+    ".claude-plugin",
+    ".mcp.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "bugsink",
+    "sentry",
+    "error-tracking",
+    "claude",
+    "claude-code",
+    "claude-plugin",
+    "anthropic"
+  ],
+  "author": "neno73",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solsmk/bugsink.git"
+  },
+  "homepage": "https://github.com/solsmk/bugsink#readme",
+  "bugs": {
+    "url": "https://github.com/solsmk/bugsink/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.1.13"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
