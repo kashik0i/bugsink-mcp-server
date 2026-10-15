@@ -1,7 +1,7 @@
 {
   "name": "bugsink-mcp-server",
   "version": "2.1.1",
-  "description": "MCP server and Claude Code plugin for BugSink error tracking — query issues, analyze stacktraces, set up SDKs, and fix production bugs",
+  "description": "MCP server and Claude Code plugin for BugSink error tracking \u2014 query issues, analyze stacktraces, set up SDKs, and fix production bugs",
   "type": "module",
   "main": "src/index.js",
   "bin": {
@@ -40,8 +40,8 @@
     "url": "https://github.com/solsmk/bugsink/issues"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.27.1",
-    "zod": "^4.1.13"
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "4.4.3"
   },
   "engines": {
     "node": ">=18"
